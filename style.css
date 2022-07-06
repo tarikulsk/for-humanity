@@ -1,0 +1,26 @@
+.top-banner {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+
+#lol {
+    font-size: 70px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.loll {
+    text-align: center;
+}
+
+.kichu {
+    text-align: center;
+}
