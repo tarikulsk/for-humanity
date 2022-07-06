@@ -1,128 +1,349 @@
-.top-banner {
-    background-image: url(images/donation5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 100px;
-    height: 60vh;
-    width: 100%;
-    text-align: center;
-    color: white;
-    margin-inline: 0%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.h1 {
-    text-align: center;
+body {
+    font-family: 'Inter', sans-serif;
 }
 
-
-.banner-text {
-    color: white;
-    padding-top: 0;
-    font-size: 50px;
+section {
+    margin-bottom: 50px;
 }
 
-#amount {
-    border: none;
-}
-
-
-
-#banner-text {
-    padding-top: 15%;
-
-}
-
-
-
-
-#lol {
-    font-size: 70px;
-    text-align: center;
-}
-
-
-
-
-.loll {
-    text-align: center;
-}
-
-.kichu {
-    text-align: center;
-}
-
-.link-button {
+a {
     text-decoration: none;
-    padding: 10px 40px;
-    background-image: linear-gradient(RED, RED);
-    border-radius: 5px;
-    font-weight: 900;
-    color: white;
+    cursor: pointer;
 }
 
-.flexible-container {
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.row {
     display: flex;
-    margin: 10%;
-}
-
-.button {
-    height: 15vh;
-    width: 15vh;
-    margin: 2%;
-
-}
-
-#lolll {
-    text-align: center;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-.flexible-1 {
-    margin: 10px;
-    background-color: rgb(247, 239, 239);
-    height: 300px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 4%;
-}
-
-.flexible-2 {
-    margin: 10px;
-    background-color: rgb(236, 231, 238);
-    height: 300px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 4%;
-}
-
-.flexible-3 {
-    margin: 10px;
-    background-color: rgb(231, 227, 230);
-    height: 300px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 4%;
-}
-
-
-.flexible-container {
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 0%;
-    margin-bottom: 5%;
-}
-
-#idd {
-    padding-left: 25%;
-    padding-right: 25%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .half-width {
-    width: 50%;
-    padding: 5%;
+    width: 40%;
 }
+
+
+/* Hero Section Style Start  */
+.banner-bg {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(360deg, #121212 3%, rgba(18, 18, 18, 0) 100%), url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.hero-content {
+    color: #fff;
+    text-align: center;
+    width: 60%;
+}
+
+.hero-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.donate-button {
+    background: #e40a0a;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #b34040;
+    transition: 0.5s;
+}
+
+/* Hero Section Style Start  */
+
+/* Donate Today Style Start  */
+
+
+.donate-child p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 80px;
+}
+
+.donate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.donate-child label {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    margin: 0 10px;
+    padding: 40px 35px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input[type=checkbox]:checked+label {
+    border: 2px #FF5959 solid;
+    color: #FF5959;
+    background-color: antiquewhite;
+}
+
+input[type=checkbox]:hover+label {
+    border: 2px #FF5959 solid;
+    color: #FF5959;
+}
+
+.other-amount-div {
+    margin-top: 70px;
+}
+
+.other-amount {
+    border: none;
+    width: 50%;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+
+input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 20px;
+    color: #B3B3B3;
+    font-weight: 400;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 5px;
+}
+
+/* Donate Today Style End  */
+
+/* Donate Plan Style Start  */
+.plan-h2-p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.plan-h2-p {
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+.plan-item {
+    width: 20%;
+    padding: 4em 3em;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.plan-item img {
+    max-width: 70px;
+    padding: 15px 0;
+}
+
+.plan-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.plan-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 24px;
+}
+
+#plan-bg1 {
+    background-color: #eef6f7;
+}
+
+#plan-bg2 {
+    background-color: #ffefef;
+}
+
+#plan-bg3 {
+    background-color: #fff4d6;
+}
+
+/* Donate Plan Style End  */
+
+
+/* Side image text Style Start  */
+.space {
+    height: 120px;
+}
+
+.side-image-text p {
+    color: #707070;
+}
+
+.side-image-text img {
+    border-radius: 28px;
+}
+
+.side-image-text a {
+    background: #FF5959;
+    border-radius: 8px;
+    padding: 14px 14px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+}
+
+.side-image-text a:hover {
+    background: #a24040;
+    transition: 0.5s;
+}
+
+/* Side image text Style End  */
+
+/* OUR VOLUNTEERS Section Start */
+.volunteers {
+    padding: 1em 3em;
+    text-align: center;
+    height: 600px;
+    background-color: bisque;
+}
+
+.volunteers h5 {
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.volunteers img {
+    max-width: 100%;
+}
+
+
+/* OUR VOLUNTEERS Section End */
+
+/* Get My Updates Section Start */
+.my-update {
+    background: #FFF4D6;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.email-input {
+    border: none;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #121212;
+    width: 350px;
+    background: #D9D9D9;
+}
+
+.email-input:focus {
+    color: #121212;
+}
+
+.email-button {
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    top: 0;
+    padding: 11px 25px;
+    position: relative;
+    right: 5px;
+}
+
+input[type="email"]::placeholder {
+
+    padding: 0 20px;
+
+}
+
+/* Get My Updates Section End */
+
+
+/* footer Start Start */
+footer {
+    height: 200px;
+    background: #0B0D17;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h3 {
+    font-family: cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+    letter-spacing: 0.5px;
+}
+
+footer small {
+    color: #FFF;
+}
+
+footer small span,
+a {
+    color: #FF5959;
+}
+
+/* footer Start End */
