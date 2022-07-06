@@ -53,7 +53,7 @@ h2 {
 }
 
 
-/* Hero Section Style Start  */
+/* banner Style Start  */
 .banner-bg {
     width: 100%;
     height: 600px;
@@ -96,9 +96,9 @@ h2 {
     transition: 0.5s;
 }
 
-/* Hero Section Style Start  */
+/* banner Style Start  */
 
-/* Donate Today Style Start  */
+/* Donate Style Start  */
 
 
 .donate-child p {
@@ -146,6 +146,7 @@ input[type=checkbox]:hover+label {
 
 .other-amount-div {
     margin-top: 70px;
+    width: 100cm;
 }
 
 .other-amount {
@@ -166,7 +167,7 @@ input[type="text"]::placeholder {
     padding-bottom: 5px;
 }
 
-/* Donate Today Style End  */
+/* Donate  Style End  */
 
 /* Donate Plan Style Start  */
 .plan-h2-p {
@@ -219,7 +220,7 @@ input[type="text"]::placeholder {
 /* Donate Plan Style End  */
 
 
-/* Side image text Style Start  */
+/*image/text Style Start  */
 .space {
     height: 120px;
 }
@@ -249,9 +250,43 @@ input[type="text"]::placeholder {
     transition: 0.5s;
 }
 
-/* Side image text Style End  */
+/* image/text Style End  */
 
+/* gallary start*/
+
+.gallery {
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+.gallery-div {
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.gallery-text {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-section {
+    background-color: #fcf7f7;
+}
+
+/* gallary end */
 /* OUR VOLUNTEERS Section Start */
+
+
+
 .volunteers {
     padding: 1em 3em;
     text-align: center;
